@@ -7,7 +7,7 @@ height = float.Parse(Console.ReadLine());
 Console.WriteLine("Please enter your weight");
 weight = float.Parse(Console.ReadLine());
 
-
+  
 double bmi = weight / Math.Pow(height, 2);
 bmi = Math.Round(bmi, 1);
 
